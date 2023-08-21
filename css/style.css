@@ -1,0 +1,190 @@
+body {
+    background-image: linear-gradient(to right, rgb(92, 92, 247), #1acee6);
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 0px;
+}
+.grid-aside >span:nth-of-type(1){
+    background-color: aquamarine;
+    border-radius: 50px;
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    width: 50%;
+    margin-right: 25%;
+    cursor: pointer;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+#stu-p{
+    font-size: medium;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 220px 220px 220px;
+}
+
+#asid-right {
+    margin-right: 0px;
+    display: grid;
+    grid-row: 1/-1;
+    grid-template-columns: auto;
+}
+
+.main2 {
+    display: grid;
+    grid-column: 2/-1;
+    grid-row: 1/-1;
+    grid-template-columns: auto;
+    border-right: 4px white solid;
+    border-left: 2px black;
+    margin: 20px 10px 20px 0px;
+    background-color: white;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+p>#my-pic {
+    height: 250px;
+    width: 300px;
+    border-radius: 20%;
+    border: 2px solid #ddd;
+}
+
+#my-pic:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#first-part {
+    color: black;
+    margin-top: -30px;
+    font-size: 32px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#first-part-name:hover {
+    color: white;
+}
+
+.grid-aside {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+
+#about-me,
+#contact-me,
+#education {
+    width: 50%;
+    margin-right: 25%;
+    margin-bottom: 15px;
+}
+
+#home-page:hover,
+#about-me:hover,
+#education:hover,
+#contact-me:hover {
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    bottom: 0;
+    margin-top: -70px;
+}
+
+.my-skills {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 5px;
+}
+
+#my-skill-1 {
+    border-left: 3px rgb(92, 92, 247) solid;
+    border-bottom: 3px rgb(92, 92, 247) solid;
+}
+
+#my-skill-2 {
+    border-right: 3px rgb(92, 92, 247) solid;
+    border-bottom: 3px rgb(92, 92, 247) solid;
+}
+
+#my-skill-3 {
+    border-left: 3px rgb(92, 92, 247) solid;
+    border-top: 3px rgb(92, 92, 247) solid;
+}
+
+#my-skill-4 {
+    border-right: 3px rgb(92, 92, 247) solid;
+    border-top: 3px rgb(92, 92, 247) solid;
+}
+
+#my-skill-1:hover {
+    background-color: #1acee6;
+    border-radius: 100px;
+}
+
+#my-skill-2:hover {
+    background-color: #1acee6;
+    border-radius: 100px;
+}
+
+#my-skill-3:hover {
+    background-color: #1acee6;
+    border-radius: 100px;
+}
+
+#my-skill-4:hover {
+    background-color: #1acee6;
+    border-radius: 100px;
+}
+
+#my-skill-name {
+    grid-column: 1/-1;
+    margin-bottom: 25px;
+}
+
+#my-skill-name:hover {
+    color: blue;
+}
+
+
+/* .dot {
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(251, 255, 0);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot:hover {
+    background-color: #fff;
+} */
+
+#instagram:hover,
+#telegram:hover,
+#gmail:hover,
+#linkedin:hover,
+#whatsapp:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#instagram,
+#telegram,
+#gmail #linkedin,
+#whatsapp {
+    margin-left: 2px;
+}

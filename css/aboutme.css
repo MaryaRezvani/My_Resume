@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
+body {
+    background-image: linear-gradient(to right, rgb(44, 97, 0), #00ff40);
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 130px;
+    margin-top: 20px;
+}
+
+#about-me {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#about-me2 {
+    margin-top: -20px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#about-me3 {
+    margin-top: -20px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+caption{
+    color:blueviolet
+}
+#table-me{
+    width:600px;
+    height: 100px;
+    margin-right: 220px;
+}
+.row1-table{
+    background-color: silver;
+
+}
+.row2-table{
+    background-color: #fff;
+
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif, Times, serif;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 190px 190px 190px 370px;
+}
+
+#asid-right {
+    display: grid;
+    grid-row: 1/-1;
+    border-radius: 35px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.main2{
+    /* display: grid; */
+    grid-column: 2/-1;
+    grid-row: 1/4;
+    border-right: 4px white solid;
+    border-left: 2px black;
+    margin: 50px 10px 15px 0px;
+    background-color: white;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+.main3{
+    /* display: grid; */
+    grid-column: 2/-1;
+    grid-row: 4/-1;
+    border-right: 40px white solid;
+    border-left: 2px black;
+    margin: 10px 10px 15px 0px;
+    background-color: white;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+p > #my-pic {
+    height: 250px;
+    width: 300px;
+    border-radius: 20%;
+    border: 2px solid #ddd;
+}
+
+#my-pic:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#first-part {
+    color: black;
+    margin-top: -60px;
+    font-size: 30px;
+    padding-top: 0px;
+}
+
+#first-part-name:hover {
+    color: white;
+}
+
+#first-part>h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -40px;
+}
+
+#first-part>h3:hover {
+    color: #fff;
+}
+
+#about-me-header:hover,
+#contact-me:hover,
+#education:hover {
+    background-color: white;
+    border-radius: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.second-grid {
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: 45px;
+}
+
+#aboutme-name {
+    grid-column:1/-1;
+    font-family: 'muli',sans-serif;
+    color:blueviolet;
+}
+#intro-me{
+    font-family:'muli',sans-serif;
+    font-style: normal;
+    color:blueviolet;
+}
+#my-skill-name:hover {
+    color: rgb(77, 170, 0);
+}

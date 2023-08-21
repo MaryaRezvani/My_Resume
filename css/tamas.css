@@ -1,0 +1,226 @@
+body {
+    background-color: #E9E9E9;
+    margin-top: 35px;
+}
+
+main {
+    padding: 25px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+
+.one {
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    padding: 25px;
+    text-align: center;
+    background-color: #0081a7;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 30px #888888;
+}
+
+.one h1 {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    font-size: 29px;
+    padding-top: 15%;
+}
+
+.one p {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.two {
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    padding: 25px;
+    background-color: #FAFAFA;
+    box-shadow: 2px 2px 30px #888888;
+}
+
+.social {
+    padding: 50px;
+}
+
+#follow-me {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#secend-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#about-me:hover,
+#contact-me:hover,
+#education:hover {
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#instagram:hover,
+#telegram:hover,
+#gmail:hover,
+#linkedin:hover,
+#whatsapp:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#instagram,
+#telegram,
+#gmail #linkedin,
+#whatsapp {
+    margin-left: 2px;
+}
+
+label {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0081a7;
+}
+
+#username {
+    opacity: 0.6;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #f3f3f3;
+    width: 50%;
+    border: none;
+    border: 1px rgb(94, 94, 94) solid;
+    border-radius: 20px;
+    padding: 10px 10px 5px 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#username:hover {
+    background-color: #ebebeb;
+    color: black;
+    opacity: 1;
+    border: 2px black solid;
+}
+
+#email-id {
+    opacity: 0.6;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #f3f3f3;
+    width: 50%;
+    border: none;
+    border: 1px rgb(94, 94, 94) solid;
+    border-radius: 20px;
+    padding: 10px 10px 5px 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#email-id:hover {
+    background-color: #ebebeb;
+    color: black;
+    opacity: 1;
+    border: 2px black solid;
+}
+
+#number {
+    opacity: 0.6;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #f3f3f3;
+    width: 50%;
+    border: none;
+    border: 1px rgb(94, 94, 94) solid;
+    border-radius: 20px;
+    padding: 10px 10px 5px 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#number:hover {
+    background-color: #ebebeb;
+    color: black;
+    opacity: 1;
+    border: 2px black solid;
+}
+
+#text {
+    opacity: 0.6;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #f3f3f3;
+    width: 90%;
+    border: none;
+    border: 1px rgb(94, 94, 94) solid;
+    border-radius: 20px;
+    padding: 10px 10px 5px 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#text:hover {
+    background-color: #ebebeb;
+    color: black;
+    opacity: 1;
+    border: 2px black solid;
+}
+
+input[type=button] {
+    width: 30%;
+    height: 40px;
+    padding: 5px 15px 5px 15px;
+    margin: 10px 0 8px 0;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #0081a7;
+    border-radius: 80px;
+    color: white;
+    border: 0px;
+    opacity: 1;
+}
+
+input[type=button]:hover {
+    opacity: 1;
+    background-color: #0048a7;
+}
+
+@media(max-width:800px) {
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+    }
+    .one,
+    .two {
+        border-radius: 25%;
+        padding: 50px;
+    }
+    .one h1 {
+        color: white;
+        text-align: center;
+        font-weight: 200;
+        font-size: 6.45vw;
+        padding-top: 30px;
+    }
+    .one p {
+        color: white;
+        text-align: center;
+        font-weight: 200;
+        font-size: 2.75vw;
+    }
+}

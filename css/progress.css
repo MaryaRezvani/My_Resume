@@ -1,0 +1,151 @@
+h1 {
+    text-align: center;
+}
+
+.chart-1 {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 30px;
+    border: 20px solid blue;
+    box-shadow: inset 0 0 7px grey;
+    border-left-color: blue;
+    border-top-color: blue;
+    border-right-color: blue;
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.chart-1:hover {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 30px;
+    border: 20px solid blue;
+    box-shadow: inset 0 0 7px grey;
+    border-left-color: black;
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.chart-2 {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 30px;
+    border: 20px solid blue;
+    box-shadow: inset 0 0 7px grey;
+    border-left-color: blue;
+    border-top-color: blue;
+    border-right-color: white;
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.chart-2:hover {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 30px;
+    border: 20px solid blue;
+    box-shadow: inset 0 0 7px grey;
+    border-left-color: black;
+    border-top-color: black;
+    border-right-color: white;
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.chart-3 {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 30px;
+    border: 20px solid blue;
+    box-shadow: inset 0 0 7px grey;
+    border-left-color: blue;
+    border-top-color: blue;
+    border-right-color: white;
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.chart-3:hover {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 30px;
+    border: 20px solid blue;
+    box-shadow: inset 0 0 7px grey;
+    border-left-color: black;
+    border-top-color: black;
+    border-right-color: white;
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.chart-4 {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 30px;
+    border: 20px solid blue;
+    box-shadow: inset 0 0 7px grey;
+    border-left-color: blue;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.chart-4:hover {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 30px;
+    border: 20px solid blue;
+    box-shadow: inset 0 0 7px grey;
+    border-left-color: black;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.html {
+    padding-top: 20px;
+    color: black;
+}
+
+.python {
+    padding-top: 20px;
+    color: black;
+}
+
+.hardware {
+    padding-top: 20px;
+    color: black;
+}
+
+.teaching {
+    padding-top: 20px;
+    color: black;
+}

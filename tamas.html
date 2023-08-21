@@ -1,0 +1,68 @@
+<!doctype html>
+<html dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/tamas.css">
+    <title>contact Me</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="one">
+                <div class="welcome-message">
+                    <h1 id="willChange1">با این فرم میتوانید نظرتان را بگویید</h1>
+                    <p id="willChange2">از پیامی که میگذارید متشکرم</p>
+                    <div class="social">
+                        <p id="follow-me">من را دنبال کنید</p>
+                        <a href="https://instagram.com" target="_blank" tabindex="6">
+                            <img src="./img/instagram.png" alt="instagram" title="instagram" id="instagram">
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" tabindex="7">
+                            <img src="./img/linkedin.png" alt="linkedin" title="linkedin" id="linkedin">
+                        </a>
+                        <a href="https://t.me" target="_blank" tabindex="8">
+                            <img src="./img/telegram.png" alt="telegram" title="telegram" id="telegram">
+                        </a>
+                        <a href="https://whatsapp.com" target="_blank" tabindex="9">
+                            <img src="./img/whatsapp.png" alt="whatsapp" title="whatsapp" id="whatsapp">
+                        </a>
+                        <a href="mailto:mrymrzvni81@gmail.com" target="_blank" tabindex="10">
+                            <img src="./img/gmail.png" alt="gmail" title="gmail" id="gmail">
+                        </a>
+                        <div id="secend-grid">
+                            <a href="./index.html" target="_self">
+                                <p id="about-me">صفحه اصلی</p>
+                            </a>
+                            <a href="./aboutMe.html" target="_self">
+                                <p id="contact-me">درباره من</p>
+                            </a>
+                            <a href="./intresting.html" target="_self">
+                                <p id="education">علاقه مندی</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--form-->
+            <div class="two">
+                <form>
+                    <label for="username">اسمتون</label><br/>
+                    <input type="text" required id="username" name="username" placeholder="First name & Last name" tabindex="1" dir="ltr"><br />
+                    <label for="email">ایمیلتون</label><br />
+                    <input type="email" required id="email-id" placeholder="example@.com" tabindex="2" dir="ltr"><br />
+                    <label for="number">شماره تماستون</label><br>
+                    <input type="text" required id="number" placeholder="091- - - " tabindex="3" dir="ltr"><br />
+                    <label for="text">پیامتون</label><br />
+                    <textarea type="text" required id="text" placeholder="متن خود را اینجا بنویسید . . . " rows="7" cols="80" tabindex="4"></textarea> <br />
+                    <input type="button" value="ارسال" id="button" tabindex="5" onclick="myFunction()">
+                </form>
+                <!--End form-->
+            </div>
+        </div>
+    </main>
+    <script src="./js/tamas.js"></script>
+</body>
+<!--End Page four-->
+</html>
